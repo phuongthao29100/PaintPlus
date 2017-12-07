@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  
+  <Application.Commands>
+    
+    <Command Name="cmdLine" Symbol="ID_BTN_LINE" LabelTitle="Line" >
+      <Command.LargeImages>
+        <Image Id="101">Images/line.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdRectangle" Symbol="ID_BTN_RECTANGLE" LabelTitle="Rectangle" >
+      <Command.LargeImages>
+        <Image Id="102">Images/rectangle.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdEllipse" Symbol="ID_BTN_ELLIPSE" LabelTitle="Ellipse" >
+      <Command.LargeImages>
+        <Image Id="103">Images/ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+  
+    <Command Name="cmdHome" LabelTitle="Home">
+      
+    </Command>
+    
+    <Command Name="cmdShapes" LabelTitle="Shapes">
+      
+    </Command>
+  
+  </Application.Commands>
+
+  
+    
+      
+        
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.Tabs>
+        
+        <Tab CommandName="cmdHome">
+          <Group CommandName="cmdShapes" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdLine" />
+            <Button CommandName="cmdRectangle" />
+            <Button CommandName="cmdEllipse" />  
+          </Group>
+        </Tab>
+      
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+
+
+
+
+
+
+</Application>
+		

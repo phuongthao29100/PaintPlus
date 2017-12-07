@@ -1,0 +1,41 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_BTN_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_LINE_LargeImages_RESID    IMAGE    "Images\\line.png" /* LargeImages ID_BTN_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_BTN_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_RECTANGLE_LargeImages_RESID    IMAGE    "Images\\rectangle.png" /* LargeImages ID_BTN_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_BTN_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ELLIPSE_LargeImages_RESID    IMAGE    "Images\\ellipse.png" /* LargeImages ID_BTN_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdHome_LabelTitle_RESID L"Home" /* LabelTitle cmdHome_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdShapes_LabelTitle_RESID L"Shapes" /* LabelTitle cmdShapes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
